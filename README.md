@@ -12,7 +12,7 @@ This is why we need a simple personality calculator that can ask a few questions
 3. add up your score for every question you answer
 4. gives you one of the *7 personalities* according to your score
 5. gives a brief description about your personalities
-6. saves the result in a file
+   
 
 **personality types: used in this project** 
 
@@ -50,10 +50,8 @@ This is why we need a simple personality calculator that can ask a few questions
 8.compare percentage with redefined ranges 
 
 9. display personality type and description
-    
-10. save the result in 'result.text'
-    
-11 End
+
+10 End
 
 
 ## overview of the project:-
@@ -107,12 +105,13 @@ return "INFP"
 
 personality type = call findpersonality(percentage)
 
+
+display user_name
 display personality_type
 display brief description
+display percentage
 
-open result.text to write
-write user_name, personality_type, and description into file
-close file
+
 
 end
 
