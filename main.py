@@ -35,7 +35,7 @@ def ask_questions():
         print("\ninvalid input 0 will be added to the score")
         total_score += 0
 
-    max_score += 10 # This should always be added for Q1
+    max_score += 10 
 
 
     # Question 2
