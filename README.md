@@ -56,6 +56,86 @@ This is why we need a simple personality calculator that can ask a few questions
 11 End
 
 
+## overview of the project:-
+1. it's an mcq based personality test/calculator
+2. it calculates score
+3. show's people their personality type
+4. saves result in a file
+
+
+## pseudocode for the problem:-
+
+start
+
+read username
+set total_score = 0
+
+function ask questions():-
+set score = 0
+for each question from 1 to n
+display questions and options
+read userchoice 
+add marks based on user_choice to the score
+return score
+
+total_score = call ask question()
+
+max_score = n*highest_option_marks
+percentage = (total_score/max_score)*100
+
+function find personality (percentage) :-
+if 0 < percentage <= 15 than
+return "ISTJ"
+
+else if 15 < percentage <= 30 than
+return "ISFJ"
+
+else if 30 < percentage <= 45 than 
+return "INFJ"
+
+else if 45 < percentage <= 60 than
+return "INTJ"
+
+else if 60 < percentage <= 75 than
+return "ISTP"
+
+else if 70 < percentage <= 90 than
+return "ISFP"
+
+else
+return "INFP"
+
+personality type = call findpersonality(percentage)
+
+display personality_type
+display brief description
+
+open result.text to write
+write user_name, personality_type, and description into file
+close file
+
+end
+
+
+## testing:-
+
+Once the program is applied testing is going to be done by:-
+
+1. running the quiz by inserting different answer choices to verify if the percentage is increasing correctly
+2. checking wheather the correct personality type is being shown in results according to there percentage.
+3. making sure that users file "result.test" is being created and showing username, personality and description
+
+   screenshots will be added after testing in "/screenshots" folder after testing is completed.
+
+   
+
+
+
+
+
+
+   
+
 
 
 
