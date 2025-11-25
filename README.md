@@ -124,7 +124,7 @@ Once the program is applied testing is going to be done by:-
 2. checking wheather the correct personality type is being shown in results according to there percentage.
 3. making sure that users file "result.test" is being created and showing username, personality and description
 
-   screenshots will be added after testing in "/screenshots" folder after testing is completed.
+   screenshots will be added after testing in "/screenshots" folder after testing are completed.
 
    
 
