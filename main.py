@@ -1,6 +1,3 @@
-# personality calculator using python
-# this program aks 10 questions and finds a personality based on it
-
 
 def ask_questions():
     total_score = 0
